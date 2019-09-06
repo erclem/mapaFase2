@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest();
-request.open('GET','http://35.232.217.247/api/ubicacions',true);
+request.open('GET','https://35.232.217.247/api/ubicacions',true);
 var myjson="";
 request.onload=function(){
     var data=JSON.parse(this.response);
